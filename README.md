@@ -1,10 +1,12 @@
 # EpigenTL
 EpigenTL (Epigenetic Transfer Learning) provides tools to integrate diverse biological datasets with transfer learning (TL), with a focus on but not limited to, epigenetic DNA methylation (DNAm) data. Designed to facilitate cross-tissue and cross-dataset predictions, this package is a powerful tool for researchers looking to leverage external data sources to enhance their analyses, biomarker development, and cross tissue predictions in a penalized regression framework. While initially tailored for methylation data, EpigenTL's algorithms are broadly applicable, offering a flexible framework for any data type where leveraging auxiliary datasets can provide added insight.
 
-This package also provides algorithms to estimate blood DNAm biomarkers from saliva DNAm profiles, foregoing the need for invasive blood draws. 
+This package also provides algorithms to estimate blood DNAm biomarkers from saliva DNAm profiles in humans, and skin from mammals, foregoing the need for invasive blood draws. 
 
 ### Key Features:
 **Saliva to Blood DNAm Biomarker Prediction:** Utilizes saliva DNAm profiles to predict blood DNAm biomarkers, supporting both "C" (CpG-only) and "C+S" (CpG + Saliva DNAm Biomarkers) algorithms.
+
+**Skin to Blood DNAm Biomarker Prediction in Mammals:** Utilizes skin DNAm profiles to predict blood DNAm biomarkers, supporting "C" (CpG-only) algorithms for 17 of the DNAm Biomarkers.
 
 **Flexible Transfer Learning with Lasso Regression:** Implements transfer learning with Lasso regression to enhance algorithmic prediction accuracy. 
 
