@@ -3,6 +3,8 @@ EpigenTL (Epigenetic Transfer Learning) provides tools to integrate diverse biol
 
 This package also provides algorithms to estimate blood DNAm biomarkers from saliva DNAm profiles in humans, and skin from mammals, foregoing the need for invasive blood draws. 
 
+Please read our pdf which will soon be hosted on bioRxiv and will be sent in for publication soon.
+
 ### Key Features:
 **Saliva to Blood DNAm Biomarker Prediction:** Utilizes saliva DNAm profiles to predict blood DNAm biomarkers, supporting both "C" (CpG-only) and "C+S" (CpG + Saliva DNAm Biomarkers) algorithms.
 
